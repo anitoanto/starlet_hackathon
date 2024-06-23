@@ -155,7 +155,7 @@ body {
 
 .frame1 {
   height: 110%;
-  background-color: #fb8500;
+  background-color: #241b86;
 }
 
 .frame1 .img-back {
@@ -242,7 +242,7 @@ body {
 }
 
 .frame1-left .devfolio button:hover {
-  color: #fb8500;
+  color: #241b86;
 }
 
 .frame1-left .devfolio button:hover .button-back {
@@ -398,7 +398,7 @@ body {
 .frame3 {
   height: auto;
   padding: 150px 0px;
-  background-color: #fb8500;
+  background-color: #241b86;
   color: white;
   font-family: 'Didact Gothic';
   text-align: center;
@@ -474,7 +474,7 @@ body {
   font-size: 1.1em;
   padding: 20px 0px;
   font-family: 'primetime';
-  color: #fb8500;
+  color: #241b86;
   /*font-weight: bold;*/
 }
 
@@ -545,7 +545,7 @@ body {
 .frame4 .timeline {
   margin-top: 20px;
   padding: 20px 0px;
-  border-left: 4px solid #fb8500;
+  border-left: 4px solid #241b86;
   width: 80%;
   display: inline-block;
 }
@@ -571,7 +571,7 @@ body {
 
 .schedule-content {
   padding: 0px 10px 20px 10px;
-  border-bottom: 2px solid #fb8500;
+  border-bottom: 2px solid #241b86;
 }
 
 .schedule-date {
@@ -607,7 +607,7 @@ body {
 .frame5 {
   height: auto;
   padding: 150px 0px;
-  background-color: #fb8500;
+  background-color: #241b86;
   color: white;
   font-family: 'Didact Gothic';
   text-align: center;
@@ -760,7 +760,7 @@ body {
   width: 30%;
   overflow: hidden;
   display: inline-block;
-  border: 2px solid #fb8500;
+  border: 2px solid #241b86;
   margin: 1.5%;
   background-color: white;
   padding: 20px 0px;
@@ -782,7 +782,7 @@ body {
   font-family: 'Didact Gothic';
   color: #293d3d;
   font-weight: bold;
-  background-color: #fb8500;
+  background-color: #241b86;
   color: white;
   padding: 10px 15px;
   width: 100%;
@@ -800,7 +800,7 @@ body {
 .frame7 {
   height: auto;
   padding: 150px 0px;
-  background-color: #fb8500;
+  background-color: #241b86;
   color: white;
   font-family: 'Didact Gothic';
   text-align: center;
