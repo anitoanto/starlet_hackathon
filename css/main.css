@@ -112,6 +112,7 @@ body {
   height: 100%;
   position: relative;
   left: 0%;
+  margin-top: 10px;
   -webkit-transition: left 0.3s;
   -moz-transition: left 0.3s;
   transition: left 0.3s;
@@ -225,45 +226,48 @@ body {
   font-family: 'playwrite';
 }
 
-.frame1-left .devfolio {
-  margin-top: 20px;
-}
-
-.frame1-left .devfolio button {
-  border: 2px solid rgba(255, 255, 255, 0.8);
-  background-color: rgba(255, 255, 255, 0);
-  color: rgba(255, 255, 255, 0.8);
-  font-family: 'Didact Gothic';
-  padding-left: 30px;
-  padding-right: 30px;
-  height: 50px;
-  font-size: 1em;
-  font-weight: bold;
+.devfolio.btn {
+  width: 180px;
+  height: 40px;
   cursor: pointer;
-  overflow: none;
+  background: transparent;
+  border: 1px solid #FFD700;
+  margin-top: 20px;
+  outline: none;
   position: relative;
-  -webkit-transition: color 0.3s;
-  -moz-transition: color 0.3s;
-  transition: 0.3s;
+  overflow: hidden; /* Ensure the overflow is hidden */
 }
 
-.frame1-left .devfolio button .button-back {
-  background-color: rgba(255, 255, 255, 0.8);
-  width: 0%;
-  height: 100px;
-  z-index: -1;
-  -webkit-transition: width 0.3s;
-  -moz-transition: width 0.3s;
-  transition: width 0.3s;
+.devfolio.btn .reg{
+  text-decoration: none;
 }
 
-.frame1-left .devfolio button:hover {
+.devfolio.btn svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: stroke-dashoffset 1s ease-in-out;
+}
+
+.devfolio.btn:hover {
+  background: #FFD700; /* Background color on hover */
+  color: #0b2228;
+}
+
+.devfolio.btn:hover svg {
+  stroke-dashoffset: -480; /* Reveals stroke on hover */
+}
+
+.devfolio.btn span {
   color: white;
-}
-
-.frame1-left .devfolio button:hover .button-back {
-  width: 100%;
-  color: wheat;
+  font-size: 18px;
+  font-weight: 100;
+  position: relative; /* Ensure text is positioned relative to the button */
+  z-index: 1; /* Ensure text is above the SVG */
 }
 
 .frame1-right {
@@ -302,7 +306,7 @@ body {
 #devfolio-apply-now {
   display: -ms-flexbox;
   display: -webkit-box;
-  display: flex;
+  display: inline-flex;
 }
 
 .sponsor-name {
@@ -323,11 +327,14 @@ body {
   position: absolute;
   right: 20px;
   top: 20px;
+  
 }
 
 .app-team-icon img {
   width: 100%;
   animation: fadeInDown 1s forwards;
+  border: transparent;
+  border-radius: 100%;
 }
 /***********************
 	DIVERSITY PAGE
@@ -529,7 +536,7 @@ body {
 
 .frame4-right .name {
   font-family: primetime;
-  color: #293d3d;
+  color: black;
   text-align: center;
   font-size: 2em;
 }
@@ -595,7 +602,7 @@ body {
 .schedule-date {
   font-size: 1.3em;
   font-weight: bold;
-  color: #293d3d;
+  color: black;
 }
 
 .schedule-title {
@@ -702,10 +709,12 @@ body {
 .frame5-content {
   z-index: 3;
   position: relative;
+  font-size: 1.4em;
+  margin: 16px;
 }
 
 .frame5-text {
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 0px 10px;
 }
 
@@ -897,6 +906,10 @@ body {
 
 .frame8 .heart {
   color: #e60000;
+  
+}
+.frame8 .heart a{
+  text-decoration: none;
 }
 
 .footer-icons {
