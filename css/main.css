@@ -239,6 +239,7 @@ body {
 
 .devfolio.btn .reg{
   text-decoration: none;
+  font-weight: bolder;
 }
 
 .devfolio.btn svg {
@@ -254,7 +255,6 @@ body {
 
 .devfolio.btn:hover {
   background: #FFD700; /* Background color on hover */
-  color: #0b2228;
 }
 
 .devfolio.btn:hover svg {
@@ -267,6 +267,10 @@ body {
   font-weight: 100;
   position: relative; /* Ensure text is positioned relative to the button */
   z-index: 1; /* Ensure text is above the SVG */
+}
+
+.devfolio.btn:hover span {
+  color: black; 
 }
 
 .frame1-right {
@@ -379,8 +383,10 @@ body {
   left: 10%;
   top: 10%;
   height: auto;
-  border-radius: 100%;
+  border-radius: 20px;
+  clip-path: inset(57% 0 0 0);
 }
+
 
 .frame2 .img-back {
   position: absolute;
@@ -550,6 +556,7 @@ body {
   top: 60%;
   transform: translateY(-50%);
   height: auto;
+  clip-path: inset(37% 0 0 0);
 }
 
 .frame4 .img-back {
