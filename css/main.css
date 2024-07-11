@@ -357,6 +357,7 @@ body {
   z-index: 3;
   padding: 50px 10px;
   text-align: center;
+  border-radius: 20px;
 }
 
 .frame2-right {

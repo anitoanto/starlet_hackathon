@@ -70,6 +70,7 @@
   .frame3 .name,
   .frame4 .name {
     font-size: 1.7em;
+    margin-top: 25px;
   }
 
   .frame4 .img-back-left,
@@ -144,10 +145,11 @@
 
   .frame2-left,
   .frame4-left {
-    position: relative;
+    /* position: relative;
     width: 100%;
     height: auto;
-    padding: 0px 10px;
+    padding: 0px 10px; */
+    display: none;
   }
 
   .frame1-left .name {
@@ -210,6 +212,8 @@
     padding: 30px 20px;
   }
 }
+
+
 
 @media (min-width: 769px) and (max-width: 949px) {
   .fullOverlay.active {
