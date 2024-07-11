@@ -112,7 +112,6 @@ body {
   height: 100%;
   position: relative;
   left: 0%;
-  margin-top: 10px;
   -webkit-transition: left 0.3s;
   -moz-transition: left 0.3s;
   transition: left 0.3s;
@@ -375,7 +374,7 @@ body {
 }
 
 .frame2-left img {
-  width: 65%;
+  width: 80%;
   position: absolute;
   left: 10%;
   top: 10%;
@@ -523,6 +522,7 @@ body {
   z-index: 3;
   padding: 50px 10px;
   text-align: center;
+  border-radius: 100%;
 }
 
 .frame4-right {
