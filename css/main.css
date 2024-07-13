@@ -109,7 +109,7 @@ body {
 
 .content {
   width: 100%;
-  height: 100%;
+  height: 90%;
   position: relative;
   left: 0%;
   -webkit-transition: left 0.3s;
@@ -350,8 +350,8 @@ body {
 
 .frame2-left {
   position: absolute;
-  right: 0px;
-  width: 50%;
+  right: 100px;
+  width: 30%;
   min-height: 100%;
   display: inline-block;
   z-index: 3;
@@ -431,9 +431,8 @@ body {
   height: auto;
   padding: 150px 0px;
   background-color: #241b86;
-  color: white;
-  font-family: 'Didact Gothic';
-  text-align: center;
+  color: gold;
+  font-family: 'playwrite';
 }
 
 .frame3 .img-back {
@@ -718,17 +717,21 @@ body {
 .frame5-content {
   z-index: 3;
   position: relative;
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .frame5-text {
   font-size: 1em;
   padding: 0px 10px;
+  color: gold;
 }
 
 .frame5 a {
   color: white;
+  font-weight: bold;
 }
 
 .sponsor-icons .sponsor-icon.advantIcon img {
@@ -789,6 +792,7 @@ body {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .prize {
